@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/reserve", function (req, res) {
-  res.sendFile(path.join(__dirname, "reserve.// ==============================================================================
+  res.sendFile(path.join(__dirname, "reserve"));
   // DEPENDENCIES
   // Series of npm packages that we will use to give our server useful functionality
   // ==============================================================================
