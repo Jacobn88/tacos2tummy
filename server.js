@@ -58,7 +58,7 @@ app.get("/reserve", function (req, res) {
   app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
   });
-  html"));
+ 
 });
 app.get("/tables", function (req, res) {
   res.sendFile(path.join(__dirname, "tables.html"));
